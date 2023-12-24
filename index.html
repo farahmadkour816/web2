@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farooha's Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Farah Madkour</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Projects</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Welcome To My Personal Website</h2>
+        
+        <p>Here is some of my work:</p>
+        <!-- Updated Button with href attribute -->
+        <a href="https://farahmadkour816.github.io/FarahMadkour/" class="button">Projects</a>
+        
+        <!-- Arrow Toggle Button Section -->
+        <div class="toggle-container" id="toggleContainerHome">
+            <button class="toggle-button" onclick="toggleInformation('toggleContainerHome')">
+                Summary
+                <span class="arrow">&#9660;</span>
+            </button>
+            <div class="information" id="informationHome">
+                <p>i work in: </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About </h2>
+         <!-- Arrow Toggle Button Section -->
+         <div class="toggle-container" id="toggleContainerAbout">
+            <button class="toggle-button" onclick="toggleInformation('toggleContainerAbout')">
+                About Me
+                <span class="arrow">&#9660;</span>
+            </button>
+            <div class="information" id="informationAbout">
+                <p> software engineer- big data stream </p> </p>
+            </div>
+        </div>
+    </section>
+        
+    </section>
+
+    <section id="contact">
+        <h2>Contact  </h2>
+         <!-- Arrow Toggle Button Section -->
+         <div class="toggle-container" id="toggleContainerContact">
+            <button class="toggle-button" onclick="toggleInformation('toggleContainerContact')">
+                Contact Me
+                <span class="arrow">&#9660;</span>
+            </button>
+            <div class="information" id="informationContact">
+                <p>Email: farahmadkour816@gmail.com  </p>
+            </div>
+        </div>
+    </section>
+        <p>Reach out to me for more information</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Farah Madkour. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
